@@ -1,0 +1,76 @@
+{
+    "name": "First Demo",
+    "version": 1,
+    "author": "@jnthas",
+    "delay": 500,
+    "bgColor": 558, 
+    "frames": [
+        {
+          "height": 5,
+          "width": 5,
+          "x": 0,
+          "y": 0,
+          "array": [0,65088,65088,65088,0,65088,65088,0,65088,65088,65088,65088,65088,65088,65088,65088,65088,65088,65088,65088,0,65088,65088,65088,0]
+        },
+        {
+          "height": 5,
+          "width": 5,
+          "x": 0,
+          "y": 0,
+          "array": [0,65088,65088,65088,65088,65088,65088,0,65088,0,65088,65088,65088,0,0,65088,65088,65088,65088,0,0,65088,65088,65088,65088]
+        }
+    ],
+    "elements": [
+        {
+          "type": "datetime",
+          "content": "H:i:s",
+          "font": "atari",
+          "fgColor": 65088,
+          "bgColor": 0,
+          "x": 5,
+          "y": 15
+        },
+        {
+          "type": "datetime",
+          "content": "d-M-y",
+          "font": "medium",
+          "fgColor": 65088,
+          "bgColor": 0,
+          "x": 5,
+          "y": 30
+        },
+        {
+          "type": "text",
+          "content": "Hello, World!",
+          "font": "picopixel",
+          "fgColor": 65535,
+          "bgColor": 0,
+          "x": 10,
+          "y": 50
+        },
+        {
+          "type": "fillrect",
+          "color": 63488,
+          "x": 4,
+          "y": 47,
+          "width": 3,
+          "height": 3
+        },
+        {
+          "type": "fillrect",
+          "color": 63488,
+          "x": 57,
+          "y": 47,
+          "width": 3,
+          "height": 3
+        },
+        {
+          "type": "line",
+          "color": 63488,
+          "x": 7,
+          "y": 40,
+          "x1": 57,
+          "y1": 40
+        }
+    ]
+}
