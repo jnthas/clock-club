@@ -1,0 +1,119 @@
+{
+  "name": "Pac Man 2",
+  "version": 1,
+  "author": "@jnthas",
+  "bgColor": 0, 
+  "delay": 200,
+  "setup": [
+    {
+      "type": "datetime",
+      "content": "H:i",
+      "font": "atari",
+      "fgColor": 65282,
+      "bgColor": 0,
+      "x": 16,
+      "y": 53
+    },
+    {
+      "type": "line",
+      "color": 29582,
+      "x": 10,
+      "y": 40,
+      "x1": 54,
+      "y1": 40
+    },
+    {
+      "type": "fillrect",
+      "color": 64576,
+      "x": 58,
+      "y": 32,
+      "width": 3,
+      "height": 3
+    },
+    {
+      "type": "image",
+      "x": 50,
+      "y": 42,
+      "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAMUlEQVQI12NkYGCQfvSYgYGBgYHhqZwsg/Sjx////xcSegQhGeGSEMDEgAqYoNpgJABuSREN0yAfAQAAAABJRU5ErkJggg=="
+    }
+  ],
+  "sprites": [
+    [
+      {
+        "height": 5,
+        "width": 5,
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAK0lEQVQI12NkYGD4+VCIgYGBgYGBXf4dI4TDLv8OwmCES0IAEwMqYETTDwBjsAzfWoivZQAAAABJRU5ErkJggg=="
+      },
+      {
+        "height": 5,
+        "width": 5,
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAKklEQVQI12NkYGD4+VCIAQ5+PhSC8CEkI1ySXf4dAwMDE7JCBgYGRjT9AKMADo5fZMJKAAAAAElFTkSuQmCC"
+      }
+    ],
+    [
+      {
+        "height": 5,
+        "width": 5,
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAMUlEQVQI12NkYGCQfvSYgYGBgYHhqZwsg/Sjx////xcSegQhGeGSEMDEgAqYoNpgJABuSREN0yAfAQAAAABJRU5ErkJggg=="
+      }      
+    ],
+    [
+      {
+        "height": 5,
+        "width": 5,
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAMUlEQVQI12NkYGB4JCTEwMDAwMAg9+4dwyMhof///wsJPYKQjHBJCGBiQAVMUG0wEgAYRxEN+co2xwAAAABJRU5ErkJggg=="
+      }      
+    ],
+    [
+      {
+        "height": 5,
+        "width": 5,
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAMUlEQVQI12NkYGB4JHSQgYGBgYFB7p09wyOhg////xcSegQhGeGSEMDEgAqYoNpgJABdUhENqz+0gAAAAABJRU5ErkJggg=="
+      }      
+    ],
+    [
+      {
+        "height": 5,
+        "width": 5,
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAMUlEQVQI12NkYGD4+VCIgYGBgYGBXf4dw8+HQv///xcSegQhGeGSEMDEgAqYoNpgJABzBREN3uzfxgAAAABJRU5ErkJggg=="
+      }      
+    ]
+  ],
+  "loop": [
+    {
+      "type": "sprite",
+      "movement": 0,
+      "sprite": 0,
+      "x": 24,
+      "y": 2
+    },
+    {
+      "type": "sprite",
+      "movement": 0,
+      "sprite": 1,
+      "x": 18,
+      "y": 2
+    },
+    {
+      "type": "sprite",
+      "movement": 0,
+      "sprite": 2,
+      "x": 12,
+      "y": 2
+    },
+    {
+      "type": "sprite",
+      "movement": 0,
+      "sprite": 3,
+      "x": 6,
+      "y": 2
+    },
+    {
+      "type": "sprite",
+      "movement": 0,
+      "sprite": 4,
+      "x": 0,
+      "y": 2
+    }
+  ]
+}
