@@ -1,0 +1,44 @@
+{
+  "name": "Hello World",
+  "version": 1,
+  "author": "<AUTHOR>",
+  "bgColor": 0, 
+  "delay": 500,
+  "setup": [
+    {
+      "type": "text",
+      "content": "Hello, World!",
+      "font": "picopixel",
+      "fgColor": 65535,
+      "bgColor": 0,
+      "x": 10,
+      "y": 10
+    },
+    {
+      "type": "datetime",
+      "content": "H:i",
+      "font": "",
+      "fgColor": 65535,
+      "bgColor": 0,
+      "x": 17,
+      "y": 25
+    },
+    {
+      "type": "datetime",
+      "content": "m-d",
+      "font": "",
+      "fgColor": 65088,
+      "bgColor": 0,
+      "x": 17,
+      "y": 38
+    },
+    {
+      "type": "image",
+      "x": 29,
+      "y": 52,
+      "image": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAMUlEQVQI12NkYGCQfvSYgYGBgYHhqZwsg/Sjx////xcSegQhGeGSEMDEgAqYoNpgJABuSREN0yAfAQAAAABJRU5ErkJggg=="
+    }
+  ],
+  "sprites": [],
+  "loop": []
+}
