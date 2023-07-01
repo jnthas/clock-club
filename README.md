@@ -5,7 +5,7 @@ A collection of community-shared Clockwise themes for the Canvas clockface is kn
 ![Clock Club](clockclub.png)
 
 
-Don't forget, pull requests with new themes are welcome here!
+_Don't forget, pull requests with new themes are welcome here!_
 
 
 ## Running locally
