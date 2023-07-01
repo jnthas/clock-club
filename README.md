@@ -1,6 +1,6 @@
 # Welcome to the club
 
-A collection of community-shared Clockwise themes for the Canvas clockface is known as
+A collection of community-shared [Clockwise](https://github.com/jnthas/clockwise) themes for the Canvas clockface is known as
 
 ![Clock Club](clockclub.png)
 
