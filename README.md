@@ -4,8 +4,9 @@ A collection of community-shared [Clockwise](https://github.com/jnthas/clockwise
 
 ![Clock Club](clockclub.png)
 
+Discover how does it work and how to create a new one in the [Wiki](https://github.com/jnthas/clockwise/wiki/Canvas-Clockface) of the Canvas Clockface.
 
-_Don't forget, pull requests with new themes are welcome here!_
+_and don't forget, pull requests with new themes are welcome here!_
 
 
 ## Running locally
