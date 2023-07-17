@@ -1,0 +1,38 @@
+{
+  "name": "Donkey Kong",
+  "version": 1,
+  "author": "jnthas",
+  "bgColor": 0,
+  "delay": 1000,
+  "setup": [
+    {
+      "type": "image",
+      "x": 0,
+      "y": 0,
+      "image": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACW0lEQVR42u2bLXaDQBDHJ33ICg5SkSNURERUICoic4TKHKGyR6iMqEBUVCByBEQPsqKS91KTDTBhP9mFzeM/DkJ4szO/+dgPVkR0pgVLFvPlxzzMe3Yino4PtHBZxQgB7vntqexd/zwXg/8zPReDBBAQkgCT57lID9s+F4MEEOBDgKj1sary6OPTS+/67/dbe9+WmHxdgIBJ+gDued/YzrKs9z553TSNVQ5Q6eVDAggYsqTJ4r4iY5uTJK9VsT+285QkDhGCKkBEZ5PnpQVts71tjjB1gq7vUempIwEEiLo8u8a8r+djia/++boAAVmMjB+rioQiT+on6hIErI65/2xQNX8PnSNM1WcMcSBgDAFTV4cYuWXxBNyVAbanMjhlyAEhc0Dsur34EJidALkaG2rHJ6T46oa5gIt1XX+bQrjHXUlADtDlAO7dY357r/nczIvwvnIiBAS45IDuWuFOSO9XF8+/ExHR11s16wAkgdn+cLmzudEdBIypAnIFtbU0JeF5Ka0eh76eF72RA3wIGFpf55Z+/dikNRIFmaa9AhBgO/u6enyf9oBaPStUAbTCMAAMAAOM6gOIiGhd3PUA0Qe4EMCt1SWBd4KpCu8E+Vg4CSDANm54J5jKbLCVw2AnaNqbAAGmDCqXALNrNehbem4SOJlyjdD2VCtWhYdWhXVxw09bprYqrPI8+gAXAkxEdK3Z3SeYYs9waK/CpCNygC6EupbzOXEpaNwXG77ie7KdkwICVL2/LpOmdFZYNX9R6cifQxUQdel9RojH/hxVwLbjQxVQEUAL/3z+H5OIJ2iGrWalAAAAAElFTkSuQmCC",
+      "id": "suhi8u"
+    },
+    {
+      "type": "datetime",
+      "x": 15,
+      "y": 44,
+      "content": "H:i",
+      "font": "square",
+      "fgColor": 41088,
+      "bgColor": 64776,
+      "id": "luxs89"
+    },
+    {
+      "type": "datetime",
+      "x": 23,
+      "y": 60,
+      "content": "m/d",
+      "font": "picopixel",
+      "fgColor": 64776,
+      "bgColor": 41088,
+      "id": "mthjm5"
+    }
+  ],
+  "sprites": [],
+  "loop": []
+}
