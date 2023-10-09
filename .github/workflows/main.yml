@@ -1,0 +1,31 @@
+name: ClockClub Thumbnail Generator
+
+on:
+  push:
+    paths:
+      - 'shared/**'
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Reason for manual execution'
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build and push
+      uses: docker/build-push-action@v5
+      with:
+        context: thumbnails/render
+        file: ./Dockerfile
+        push: false
+        tags: thumbnail-render:latest
+  render:
+    runs-on: ubuntu-latest
+    container:
+      image: thumbnail-render:latest
+    steps:
+       - name: Log the node version
+         run: |
+           node -v
+           cat /etc/os-release  
