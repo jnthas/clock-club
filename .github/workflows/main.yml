@@ -18,7 +18,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
-        context: ./thumbnails/render
+        context: "{{defaultContext}}:thumbnails/render"
         file: Dockerfile
         push: false
         load: true
