@@ -35,8 +35,8 @@ Feel free to open an issue with questions.
 
 Hold the mouse pointer on the image the know the filename.
 
-![donkey-kong.png](thumbnails/donkey-kong.png)
-![nyan-cat.png](thumbnails/nyan-cat.png) 
-![pac-man.png](thumbnails/pac-man.png) 
-![star-wars.png](thumbnails/star-wars.png)
-![snoopy3.png](thumbnails/snoopy3.png)
+![donkey-kong.png](thumbnails/donkey-kong.png "donkey-kong.json")
+![nyan-cat.png](thumbnails/nyan-cat.png "nyan-cat.json") 
+![pac-man.png](thumbnails/pac-man.png "pac-man.json") 
+![star-wars.png](thumbnails/star-wars.png "star-wars.json")
+![snoopy3.png](thumbnails/snoopy3.png "snoopy3.json")
