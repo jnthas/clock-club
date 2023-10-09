@@ -1,4 +1,4 @@
-name: ClockClub Thumbnail Generator
+name: Render Thumbnail
 
 on:
   push:
@@ -18,8 +18,8 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
-        context: thumbnails/render
-        file: ./Dockerfile
+        context: ./thumbnails/render
+        file: Dockerfile
         push: false
         load: true
         tags: thumbnail-render:latest
