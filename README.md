@@ -33,7 +33,7 @@ Feel free to open an issue with questions.
 
 ## Thumbnails
 
-Hold the mouse pointer on the image the know the filename.
+Hover the mouse pointer on the image the know the filename.
 
 ![donkey-kong.png](thumbnails/donkey-kong.png "donkey-kong.json")
 ![nyan-cat.png](thumbnails/nyan-cat.png "nyan-cat.json") 
