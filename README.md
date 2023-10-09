@@ -29,3 +29,14 @@ It necessary Python 3 installed, follow the tutorials to install it for [Linux](
 ## Questions
 
 Feel free to open an issue with questions.
+
+
+## Thumbnails
+
+Hold the mouse pointer on the image the know the filename.
+
+![donkey-kong.png](thumbnails/donkey-kong.png)
+![nyan-cat.png](thumbnails/nyan-cat.png) 
+![pac-man.png](thumbnails/pac-man.png) 
+![star-wars.png](thumbnails/star-wars.png)
+![snoopy3.png](thumbnails/snoopy3.png)
