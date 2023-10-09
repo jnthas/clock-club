@@ -21,6 +21,7 @@ jobs:
         context: thumbnails/render
         file: ./Dockerfile
         push: false
+        load: true
         tags: thumbnail-render:latest
   render:
     runs-on: ubuntu-latest
