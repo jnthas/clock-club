@@ -13,9 +13,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
     - name: Execute
       run: |
           echo "$GITHUB_WORKSPACE"
-          cat $GITHUB_WORKSPACE/../shared/nyan-cat.json
+          cat $GITHUB_WORKSPACE/shared/nyan-cat.json
           #docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
 
