@@ -13,5 +13,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Test
-      run: ls
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    - name: Build and push
+      uses: docker/build-push-action@v5
+      with:
+        context: "{{defaultContext}}:thumbnails/render"
+        file: Dockerfile
+        push: false
+        load: true
+        tags: thumbnail-render:latest
+        outputs: type=docker
+    - name: Execute
+      run: |
+          docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
+
