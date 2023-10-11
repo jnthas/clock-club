@@ -27,6 +27,6 @@ jobs:
     - name: Execute
       run: |
           echo "$GITHUB_WORKSPACE"
-          ls $GITHUB_WORKSPACE
-          docker run -v "$GITHUB_WORKSPACE/clock-club/shared:/app/shared" -v "$GITHUB_WORKSPACE/clock-club/thumbnails:/app/exported" thumbnail-render:latest
+          cat $GITHUB_WORKSPACE/shared/nyan-cat.json
+          docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
 
