@@ -13,20 +13,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-    - name: Build and push
-      uses: docker/build-push-action@v5
-      with:
-        context: "{{defaultContext}}:thumbnails/render"
-        file: Dockerfile
-        push: false
-        load: true
-        tags: thumbnail-render:latest
-        outputs: type=docker
     - name: Execute
       run: |
           echo "$GITHUB_WORKSPACE"
-          cat $GITHUB_WORKSPACE/shared/nyan-cat.json
-          docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
+          cat $GITHUB_WORKSPACE/../shared/nyan-cat.json
+          #docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
 
