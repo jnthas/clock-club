@@ -26,4 +26,4 @@ jobs:
         outputs: type=docker
     - name: Execute
       run: |
-          docker run -v "shared:/app/shared" -v "thumbnails:/app/exported" thumbnail-render:latest
+          docker run -v "/shared:/app/shared" -v "/thumbnails:/app/exported" thumbnail-render:latest
