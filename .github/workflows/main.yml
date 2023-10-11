@@ -1,13 +1,17 @@
 name: Render Thumbnail
-
+  
 on:
-  push:
+  pull_request:
     paths:
       - 'shared/**'
   workflow_dispatch:
     inputs:
       tags:
         description: 'Reason for manual execution'
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs: 
   build:
