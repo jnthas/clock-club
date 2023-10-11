@@ -28,13 +28,9 @@ jobs:
         outputs: type=docker
     - name: Generate thumbnails
       run: |
-          echo "$GITHUB_WORKSPACE"
-          docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
-    - name: Commit changes
-      run: | 
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git status
+          docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
           git add .
           git commit -m "Update thumbnails"
           git push
