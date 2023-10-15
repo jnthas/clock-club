@@ -35,6 +35,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
+          echo "Commiting changes on $GITHUB_HEAD_REF"
           git add .
           git commit -m "Update thumbnails"
           git push origin $GITHUB_HEAD_REF
