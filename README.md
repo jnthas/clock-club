@@ -33,7 +33,7 @@ Feel free to open an issue with questions.
 
 ## Thumbnails
 
-Hover the mouse pointer on the image the know the filename.
+Hover the mouse pointer on the image the know the filename. Set this filename (without extension .json) in the settings page to change the theme of your Clockwise.
 
 ![donkey-kong.png](thumbnails/donkey-kong.png "donkey-kong.json")
 ![nyan-cat.png](thumbnails/nyan-cat.png "nyan-cat.json") 
