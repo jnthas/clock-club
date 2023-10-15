@@ -40,3 +40,6 @@ Hover the mouse pointer on the image the know the filename. Set this filename (w
 ![pac-man.png](thumbnails/pac-man.png "pac-man.json") 
 ![star-wars.png](thumbnails/star-wars.png "star-wars.json")
 ![snoopy3.png](thumbnails/snoopy3.png "snoopy3.json")
+![retro-computer.png](thumbnails/retro-computer.png "retro-computer.json")
+<!-- {{THUMBNAIL}} -->
+
