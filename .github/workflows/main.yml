@@ -1,4 +1,4 @@
-name: Render Thumbnail
+ name: Render Thumbnail
   
 on:
   pull_request:
@@ -37,5 +37,5 @@ jobs:
           docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest
           git add .
           git commit -m "Update thumbnails"
-          git push
+          git push origin $GITHUB_HEAD_REF
 
