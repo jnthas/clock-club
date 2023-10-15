@@ -1,4 +1,4 @@
- name: Render Thumbnail
+name: Render Thumbnail
   
 on:
   pull_request:
