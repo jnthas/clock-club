@@ -18,9 +18,14 @@ def createServer():
     
     httpd = HTTPServer((localip, 4443), SimpleHTTPRequestHandler)
 
-    httpd.socket = ssl.wrap_socket (httpd.socket, 
-            keyfile="privatekey.pem", 
-            certfile='certificate.pem', server_side=True)
+    ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    ssl_context.load_cert_chain("server.pem")
+    httpd.socket = ssl_context.wrap_socket(
+    httpd.socket,
+    server_side=True,
+    )
+
+    #httpd.socket = ssl.wrap_socket (httpd.socket, keyfile="privatekey.pem", certfile='certificate.pem', server_side=True)
     
     print("Serving '/'...")
     httpd.serve_forever()
