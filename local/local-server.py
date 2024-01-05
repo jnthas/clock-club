@@ -24,9 +24,7 @@ def createServer():
     httpd.socket,
     server_side=True,
     )
-
-    #httpd.socket = ssl.wrap_socket (httpd.socket, keyfile="privatekey.pem", certfile='certificate.pem', server_side=True)
-    
+     
     print("Serving '/'...")
     httpd.serve_forever()
     
