@@ -1,0 +1,50 @@
+{
+  "name": "Goomba Moving",
+  "version": 1.0,
+  "author": "Raspfarbend HR",
+  "bgColor": 0,
+  "delay": 750,
+  "setup": [
+    {
+      "type": "datetime",
+      "x": 17,
+      "y": 8,
+      "content": "H:i",
+      "font": "",
+      "fgColor": 61017,
+      "bgColor": 47526,
+      "id": "q0xye4"
+    },
+    {
+      "type": "image",
+      "x": 0,
+      "y": 1,
+      "image": "iVBORw0KGgoAAAANSUhEUgAAAD8AAAAtBAMAAADrb658AAAAD1BMVEUAAAAAAAAzMzO7MzPuzMzoiG0XAAAAAXRSTlMAQObYZgAAAHNJREFUOMvF02EKgCAMhuGBJxhdxPiusPufqcxk03AQ5Hp/aT6CEhKZcEeT0nIAk7t/GcCQu/8f8FgHsnuHtyBhZ2a7ek43Q7Aa1CuKKGEWMQdFJNBiQfvRBdTPOroIIkGpH0WDScFATN0TdUCmL4EMtRMcr3fQu8T3wz8AAAAASUVORK5CYII=",
+      "id": "omm0ni",
+      "comment":"head"
+    }
+  ],
+  "sprites": [
+    [
+      {
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAATBAMAAADSXRa0AAAAD1BMVEUAAAAAAAAzMzO7MzPuzMzoiG0XAAAAAXRSTlMAQObYZgAAAC9JREFUKM9jYIACFzTAgA4GQIESENBXAYiLKgkB9FYAU6KkNDAKYEoQLIyQJFsBAHweTIEqrbs+AAAAAElFTkSuQmCC",
+        "id": "b4qrs6",
+        "comment":"feet left"
+      },
+      {
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAEAAAAATBAMAAADSXRa0AAAAD1BMVEUAAAAAAAAzMzO7MzPuzMzoiG0XAAAAAXRSTlMAQObYZgAAADBJREFUKM9jYIACFzTAgA5orEAJCAZWgRIcIKRBvIFRAFMCYdNTAbISBA8jJMlWAAAbjUyBg5ad1QAAAABJRU5ErkJggg==",
+        "id": "1r6e1n",
+        "comment":"feet right"
+      }
+    ]
+  ],
+  "loop": [
+    {
+      "type": "sprite",
+      "x": 0,
+      "y": 45,
+      "sprite": 0,
+      "id": "nz0r0e"
+    }
+  ]
+}
