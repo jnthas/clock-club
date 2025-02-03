@@ -1,0 +1,28 @@
+{
+  "name": "Eletrogate",
+  "version": 1,
+  "author": "jnthas",
+  "bgColor": 0,
+  "delay": 250,
+  "setup": [
+    {
+      "type": "image",
+      "x": 7,
+      "y": 3,
+      "image": "iVBORw0KGgoAAAANSUhEUgAAADIAAAAwCAYAAABT9ym6AAABg2lDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TtSItDnYQcchQxcEuKuKoVShChVArtOpgcukXNGlIUlwcBdeCgx+LVQcXZ10dXAVB8APEXXBSdJES/5cUWsR4cNyPd/ced+8AoVFhmtU1C2i6baaTCTGbWxVDrxAQRAQ9GJOZZcxJUgq+4+seAb7exXmW/7k/R0TNWwwIiMSzzDBt4g3i6U3b4LxPHGUlWSU+Jx436YLEj1xXPH7jXHRZ4JlRM5OeJ44Si8UOVjqYlUyNeIo4pmo65QtZj1XOW5y1So217slfGM7rK8tcpzmMJBaxBAkiFNRQRgU24rTqpFhI037Cxz/k+iVyKeQqg5FjAVVokF0/+B/87tYqTE54SeEE0P3iOB8jQGgXaNYd5/vYcZonQPAZuNLb/moDmPkkvd7WYkdA/zZwcd3WlD3gcgcYfDJkU3alIE2hUADez+ibcsDALdC35vXW2sfpA5ChrlI3wMEhMFqk7HWfd/d29vbvmVZ/Pz/UcpKq3ixwAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH6QIDDR41H8B0ywAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAG6SURBVGje7ZlBTsNADEXttKiAxI49R0h3BdYcmzU0u/YIHAEJiWbTzwopQpnEHv+QtI2XmanzX+Px/ElUDLHa7JAaq6u1puY2x1LXc+7RFoUEAwC8Y12/yZ0fBplKzCAzyAzSHUt2wrpaa1uXSV1nhXb1b0sctqWoqkaFRHTU1VrPorQAYBIg0aqgLPbrx/3oELSulSuGBUFtv15RTAj6PmIVx4YQEVGPG7Wuhy7bbYU4bEs/CPNf/xXQtbcwcoRBuoR4BDByhEHahOQIYOQwWxRLvUcEWHJYNPaaRgBICWwawVy/xcgBAGH3yzCMlByW9su40ZAvOeaYYoS61lRsvulgdQq1GT5YrTY7RA0gI0eoa/29eU4JenL0amTWrAeGkWNQ92sRMkSDUSYE8zzihVH2aY1xHsnxa8V/QwyxN1Hfa3mtPBumGANiCJhiLAg2DOWJTMHmn8/3kb7vFoDIzdN+NIHf76VYnvfSUhqevp/7nT1dtiIicqeqX6HSenh5u2UfTz1Hg+MR0gdxMmsEwP3FLPaLArkat6xIIB+vz59jgiwWKiLS23DUseBg3dmbc5tjqeve/G3xA++tL1wy2XMfAAAAAElFTkSuQmCC",
+      "id": "aw89sp"
+    },
+    {
+      "type": "datetime",
+      "x": 18,
+      "y": 54,
+      "content": "H:i",
+      "font": "",
+      "fgColor": 65535,
+      "bgColor": 0,
+      "id": "4g9tu1"
+    }
+  ],
+  "sprites": [],
+  "loop": []
+}
