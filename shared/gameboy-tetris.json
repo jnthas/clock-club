@@ -1,7 +1,7 @@
 {
-  "name": "New",
+  "name": "Gameboy Tetris",
   "version": 1,
-  "author": "",
+  "author": "Xalcker",
   "bgColor": 0,
   "delay": 250,
   "setup": [
