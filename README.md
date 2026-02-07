@@ -43,8 +43,8 @@ Hover the mouse pointer on the image the know the filename. Set this filename (w
 ![retro-computer.png](thumbnails/retro-computer.png "retro-computer.json")
 ![clock-club.png](thumbnails/clock-club.png "clock-club.json")
 ![goomba-clockface.png](thumbnails/goomba-clockface.png "goomba-move.json")
-![no-roads-needed.png](thumbnails/goomba-clockface.png "no-roads-needed.png.json")
-![rockband.png](thumbnails/goomba-clockface.png "rockband.json")
-![gameboy-tetris.png](thumbnails/goomba-clockface.png "gameboy-tetris.json")
+![no-roads-needed.png](thumbnails/no-roads-needed.png "no-roads-needed.png.json")
+![rockband.png](thumbnails/rockband.png "rockband.json")
+![gameboy-tetris.png](thumbnails/gameboy-tetris.png "gameboy-tetris.json")
 <!-- {{THUMBNAIL}} -->
 
