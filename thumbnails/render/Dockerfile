@@ -5,11 +5,13 @@ COPY --chown=root:root . .
 
 USER root
 RUN chmod 755 /app
-RUN npm install
-RUN cd node_modules/puppeteer && node install.mjs
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
 
-VOLUME ['/app/shared','/app/exported']
+RUN npm install
+
+VOLUME ["/app/shared","/app/exported"]
 
 RUN ls
 
-CMD ["node", "render.js"]
+ENTRYPOINT ["node", "render.js"]
