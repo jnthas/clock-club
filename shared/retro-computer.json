@@ -3,7 +3,7 @@
   "version": 1,
   "author": "@jnthas",
   "bgColor": 8645,
-  "delay": 250,
+  "delay": 255,
   "setup": [
     {
       "type": "datetime",
@@ -12,7 +12,7 @@
       "content": "H:i",
       "font": "",
       "fgColor": 19914,
-      "bgColor": 10661,
+      "bgColor": 10662,
       "id": "u75emc"
     },
     {
@@ -25,10 +25,10 @@
     {
       "type": "rect",
       "color": 19914,
-      "x": 46,       
-      "y": 40,       
-      "width": 1,   
-      "height": 1   
+      "x": 46,
+      "y": 40,
+      "width": 1,
+      "height": 1
     }
   ],
   "sprites": [

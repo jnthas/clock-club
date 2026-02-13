@@ -36,6 +36,9 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
     await page.goto(`https://editor.clockwise.page/thumbnail.html?cw=${cw}`, { waitUntil: 'networkidle2' });
 
+    // Wait for 1 second to ensure rendering is complete
+    await new Promise(r => setTimeout(r, 1000));
+
     await page.screenshot({ path: `exported/${cw}.png` });
 
   };
