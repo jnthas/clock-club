@@ -2,7 +2,7 @@
   "name": "Retro Computer",
   "version": 1,
   "author": "@jnthas",
-  "bgColor": 8645,
+  "bgColor": 0,
   "delay": 255,
   "setup": [
     {
