@@ -59,4 +59,8 @@ jobs:
           echo "Commiting changes on $GITHUB_HEAD_REF"
           git add .
           git commit -m "Update thumbnails" || echo "No changes to commit"
-          git push origin HEAD:$GITHUB_HEAD_REF
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git push origin HEAD:$GITHUB_HEAD_REF
+          else
+            git push origin HEAD:${{ github.ref_name }}
+          fi
