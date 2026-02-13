@@ -55,9 +55,12 @@ jobs:
             fi
           fi
 
-          docker run -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest $CHANGED_FILES
+          docker run -e CLOCK_CLUB_BRANCH=${{ github.head_ref || github.ref_name }} -v "$GITHUB_WORKSPACE/shared:/app/shared" -v "$GITHUB_WORKSPACE/thumbnails:/app/exported" thumbnail-render:latest $CHANGED_FILES
           echo "Commiting changes on $GITHUB_HEAD_REF"
           git add .
           git commit -m "Update thumbnails" || echo "No changes to commit"
-          git push origin HEAD:$GITHUB_HEAD_REF
-
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git push origin HEAD:$GITHUB_HEAD_REF
+          else
+            git push origin HEAD:${{ github.ref_name }}
+          fi
