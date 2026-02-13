@@ -1,4 +1,3 @@
-
 FROM ghcr.io/puppeteer/puppeteer:21.3.8
 WORKDIR /app
 COPY --chown=root:root . .
