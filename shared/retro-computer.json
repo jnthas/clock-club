@@ -11,8 +11,8 @@
       "y": 22,
       "content": "H:i",
       "font": "",
-      "fgColor": 19914,
-      "bgColor": 10662,
+      "fgColor": 0,
+      "bgColor": 0,
       "id": "u75emc"
     },
     {
@@ -24,9 +24,9 @@
     },
     {
       "type": "rect",
-      "color": 19914,
-      "x": 46,
-      "y": 40,
+      "color": 0,
+      "x": 0,
+      "y": 0,
       "width": 1,
       "height": 1
     }
@@ -44,8 +44,8 @@
   "loop": [
     {
       "type": "sprite",
-      "x": 43,
-      "y": 40,
+      "x": 0,
+      "y": 0,
       "sprite": 0
     }
   ]
