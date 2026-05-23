@@ -1,0 +1,37 @@
+{
+  "name": "Umbrella Corp",
+  "version": 1,
+  "author": "@beta0c7",
+  "bgColor": 0,
+  "delay": 1000,
+  "setup": [
+    {
+      "type": "datetime",
+      "x": 9,
+      "y": 42,
+      "content": "H:i:s",
+      "font": "",
+      "fgColor": 63488,
+      "bgColor": 0,
+      "id": "time"
+    }
+  ],
+  "sprites": [
+    [
+      {
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABsUlEQVR4nO2Z3a3DIAyFDWIAxugI3f/pjtAxskErKllCCIKT2E5zc76XVk0w+Nj8mBIBAAAAtyWc0ekf0Xv07Ok8puDV0bIs71fO4ve9hAgejpfPnHNYi3zrPLfjtlbji2RI7UThsSwqdjQJFkZHA5ZkQRv9ng26Sgb02JsFVkRtg2vRK8/WIigRR3s6RE1jRwdXxJHY0BQhkjNl8Ee3OM11IGoZ4vTeO7jZ4ldg++U96ZbqJsAr5+8JTyLE1ixoHd9yoJqRSBkWoixoLMIsst/Fr+MUt+doazrOBA0jkr29JwSfC0YnP0maH11PEjnAjswyYovjWiRypCcEf99SK1xWgJEQ9W+3EODZzNs6E7yFSGc43ZbI9QnQW4hk3cHaDtC7JGmFsBYjaBmqB9mLdku76K2dBEdZoXFrlMgh2i2j6I+wnB6BFJFWaaMtT1IPcHu6ajWYhSXvvy2Hrc70PyFAnqTmLPq8JR7t59QMyIZX2Bb2IzkhXfmlWfDTB6EsvAfYY1ObSIbUld6Wfb/NAsuMSGTMkcF7TIVAN/93GAAAAAAAAAAAAAAAAAAAANBN+ACKX/+6GQpbDwAAAABJRU5ErkJggg=="
+      },
+      {
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABs0lEQVR4nO2Z7Y3DIAyGDWKAjJER2P/XjXBjsEErqlriIghOYpzk8j5/WjXF+AtjCBEAAADwWNwZk6aUXq1n0zSZ6uSsJvohes0pif9v5YhgYXj+jEQufb9LjOdxPHaUfp4GUhqR+Z0mFTmauBFCWwp/smBl/deiX5NBd8mAGnuzYBReW+Ba9PKztQhKnKO9HLymsKPKZedIZGg6wZMxWfmjW5xmHfBagji99yrXK34Zlp//1yum5n3AnBLlfT6vY3ZCyyDOAqkRpbwtzdQpjdC8wRG94sfjtaJdw2kIkeztNUdwX9Dq/CSGH60ngQxgQ1qOsIz4KRmwpHREWTT3GH6LDOhlRPmbNeGMSZdRK3sDa0eEM4z+c0ReFEFrR4TRE6ztALViuHTELbbBpZK1aPeOxmudYGt30Lg1CqRIb5vbeuhhRi4PR4pIjWpdjEjOAzye7noajBuj/++OwxntA81lHBA7qdmLfl4WkvS+9BKIg9813PZSNH6j30t/aRZcuhGKwnuAPTK18TQQVloa/VYWjMyIQIM5orzFUnD08LfDAAAAAAAAAAAAAAAAAAAAgB7CG3wc3hqDbRPJAAAAAElFTkSuQmCC"
+      }
+    ]
+  ],
+  "loop": [
+    {
+      "type": "sprite",
+      "sprite": 0,
+      "x": 0,
+      "y": 0
+    }
+  ]
+}

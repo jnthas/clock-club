@@ -1,0 +1,74 @@
+{
+  "name": "Space Invaders",
+  "version": 1,
+  "author": "beta0c7",
+  "bgColor": 0,
+  "delay": 500,
+  "setup": [
+    {
+      "type": "text",
+      "content": "SPACE",
+      "font": "",
+      "fgColor": 2016,
+      "bgColor": 0,
+      "x": 20,
+      "y": 4
+    },
+    {
+      "type": "text",
+      "content": "INVADERS",
+      "font": "",
+      "fgColor": 2016,
+      "bgColor": 0,
+      "x": 10,
+      "y": 15
+    },
+    {
+      "type": "datetime",
+      "content": "H:i",
+      "font": "square",
+      "fgColor": 2016,
+      "bgColor": 0,
+      "x": 18,
+      "y": 37
+    }
+  ],
+  "sprites": [
+    [
+      {
+        "id": "sprite_0_0",
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAA0AAAAICAYAAAAiJnXPAAAAMUlEQVR4nGNgQAb/gRAbwCWOUwFRGnBBvBrQNaPLEWUDThux2YBNMU5N+AKHJL+hAQC4rFul522udgAAAABJRU5ErkJggg=="
+      },
+      {
+        "id": "sprite_0_1",
+        "image": "iVBORw0KGgoAAAANSUhEUgAAAA0AAAAICAYAAAAiJnXPAAAAMklEQVR4nGNgQAb/gRAbwCWOUwFRGnBBvBrQNaPLEWUDThux2YBNMU5N+AIHqzyRQQ4AURRXqQmFleYAAAAASUVORK5CYII="
+      }
+    ]
+  ],
+  "loop": [
+    {
+      "type": "sprite",
+      "sprite": 0,
+      "x": 3,
+      "y": 48
+    },
+        {
+      "type": "sprite",
+      "sprite": 0,
+      "x": 18,
+      "y": 48
+    },
+        {
+      "type": "sprite",
+      "sprite": 0,
+      "x": 33,
+      "y": 48
+    },
+        {
+      "type": "sprite",
+      "sprite": 0,
+      "x": 48,
+      "y": 48
+    }
+  ]
+}
